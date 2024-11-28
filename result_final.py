@@ -179,7 +179,7 @@ while run:
             monster = Enemy(img_enemy, randint(80, win_width - 80), -40, 80, 50, randint(1, 5))
             monsters.add(monster)
 
-        #програш
+        #програш  
         if life == 0 or lost >= max_lost:
             finish = True # проиграли, ставим фон и больше не управляем спрайтами.
             window.blit(lose, (150, 200))
